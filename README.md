@@ -1,3 +1,3 @@
 # nusapuksic.github.io
 
-Thi is work in progress.
+This is work in progress.
