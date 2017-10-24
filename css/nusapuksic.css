@@ -25,3 +25,21 @@ max-width: 800px;
 background-image: url(../img/10108-Ni-vec.png); 
 background-size: cover;
 }
+
+@media (max-width: 575px) { 
+
+body {
+font-size: 2.5em;
+}
+
+h1, .h1 {
+font-size: 3.2em;
+}
+h2, .h2 {
+font-size: 3em;
+}
+h3, .h3 {
+font-size: 2.8em;
+}
+
+ }
