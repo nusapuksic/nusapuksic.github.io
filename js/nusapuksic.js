@@ -1,7 +1,4 @@
-﻿$("#sec-3").hide();
-$("#sec-4").hide();
-
-function infoFillEn() {
+﻿function infoFillEn() {
   $("#intro").text("Welcome.");
   $("#who").text("Who am I.");
   $("#phd").text("// PhD in nanosciences and nanotechnologies");
@@ -33,9 +30,5 @@ $("#sl").click(function() {
 });
 
 $( document ).ready(function() {
-  setTimeout(function() {
     infoFillEn();
-    $("#sec-3").fadeIn( "slow");
-    $("#sec-4").delay(100).fadeIn( "slow");
-  }, 2000)
 });
