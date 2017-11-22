@@ -36,6 +36,6 @@ $( document ).ready(function() {
   setTimeout(function() {
     infoFillEn();
     $("#sec-3").fadeIn( "slow");
-    $("#sec-4").fadeIn( "slow");
+    $("#sec-4").delay(100).fadeIn( "slow");
   }, 2000)
 });
